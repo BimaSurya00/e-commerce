@@ -1,6 +1,9 @@
 # ecommerce
 
-A new Flutter project.
+<img width="1920" height="1440" alt="833_1x_shots_so" src="https://github.com/user-attachments/assets/96d8cf7d-19c6-422e-8921-2e5de8875c6b" />
+<img width="1920" height="1440" alt="324_1x_shots_so" src="https://github.com/user-attachments/assets/ad847973-39d1-481d-9bbd-8bdcfbc930cb" />
+
+
 
 ## Getting Started
 
