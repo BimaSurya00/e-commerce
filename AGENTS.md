@@ -33,6 +33,18 @@ Struktur **Feature-First Architecture** dengan clean architecture:
 - `google_nav_bar: ^5.0.7` - Bottom navigation
 - `flutter_lints: ^5.0.0` - Linting rules
 
+## Issue Tracking dengan Beads
+Project menggunakan **Beads** (AI-native issue tracking) untuk manajemen task:
+- **Database**: `.beads/beads.db` (SQLite) + `.beads/issues.jsonl` (export)
+- **Commands**:
+  - `bd create "isu title"` - Buat issue baru
+  - `bd list` - Lihat semua issues
+  - `bd show <issue-id>` - Detail issue
+  - `bd update <id> --status in_progress/done` - Update status
+  - `bd sync` - Sync dengan git (export ke JSONL)
+- **Konfigurasi**: `.beads/config.yaml` untuk settings Beads
+- **Integration**: Beads sync otomatis saat commit via `bd sync`
+
 ## Landing the Plane (Session Completion)
 
 **When ending a work session**, you MUST complete ALL steps below. Work is NOT complete until `git push` succeeds.
