@@ -2,6 +2,11 @@
 
 Aplikasi e-commerce modern yang dibangun dengan Flutter, menggunakan arsitektur Feature-First dengan clean architecture. Aplikasi ini menyediakan pengalaman belanja online yang lengkap dengan fitur authentication, product catalog, shopping cart, dan checkout.
 
+## 📱 Screenshots
+
+<img width="1920" height="1440" alt="833_1x_shots_so" src="https://github.com/user-attachments/assets/96d8cf7d-19c6-422e-8921-2e5de8875c6b" />
+<img width="1920" height="1440" alt="324_1x_shots_so" src="https://github.com/user-attachments/assets/ad847973-39d1-481d-9bbd-8bdcfbc930cb" />
+
 ## 🚀 Fitur Utama
 
 ### 🏠 Home Page
