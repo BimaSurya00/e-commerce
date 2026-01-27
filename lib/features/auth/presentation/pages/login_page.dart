@@ -20,7 +20,8 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppPallete.thirdColor,
+      // backgroundColor: AppPallete.thirdColor,
+      backgroundColor: Colors.grey[300],
       body: Center(
         child: Container(
           width: 350,
@@ -71,7 +72,7 @@ class _LoginPageState extends State<LoginPage> {
                   backgroundColor: AppPallete.secondaryColor,
                 ),
               ),
-              SizedBox(height: 16), 
+              SizedBox(height: 16),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [

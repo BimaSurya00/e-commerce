@@ -97,7 +97,8 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppPallete.thirdColor,
+      // backgroundColor: AppPallete.thirdColor,
+      backgroundColor: Colors.grey[300],
       body: SafeArea(
         child: SingleChildScrollView(
           child: Padding(
@@ -184,7 +185,9 @@ class _HomePageState extends State<HomePage> {
                               style: GoogleFonts.poppins(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w300,
-                                color: AppPallete.secondaryColor.withOpacity(0.5),
+                                color: AppPallete.secondaryColor.withOpacity(
+                                  0.5,
+                                ),
                               ),
                             ),
                           ],

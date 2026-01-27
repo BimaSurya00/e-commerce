@@ -75,6 +75,22 @@ class _BasePageState extends State<BasePage> {
               ),
             ),
             GButton(
+              icon: Icons.shopping_cart_outlined,
+              text: 'Cart',
+              textStyle: GoogleFonts.poppins(
+                fontWeight: FontWeight.w300,
+                color: Colors.white,
+              ),
+              iconColor: Colors.black,
+              leading: Icon(
+                Icons.shopping_cart_outlined,
+                size: 24,
+                color: widget.navigationShell.currentIndex == 2
+                    ? Colors.white
+                    : Colors.black,
+              ),
+            ),
+            GButton(
               icon: Icons.person,
               text: 'Profile',
               textStyle: GoogleFonts.poppins(
@@ -85,7 +101,7 @@ class _BasePageState extends State<BasePage> {
               leading: Icon(
                 Icons.person_2_outlined,
                 size: 24,
-                color: widget.navigationShell.currentIndex == 2
+                color: widget.navigationShell.currentIndex == 3
                     ? Colors.white
                     : Colors.black,
               ),

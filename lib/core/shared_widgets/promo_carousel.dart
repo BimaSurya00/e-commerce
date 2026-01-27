@@ -62,13 +62,13 @@ class PromoCarousel extends StatefulWidget {
 
 class _PromoCarouselState extends State<PromoCarousel> {
   late PageController _pageController;
-  int _currentPage = 0;
+  int _currentPage = 0; 
   Timer? _autoSlideTimer;
 
   @override
   void initState() {
     super.initState();
-    _pageController = PageController(viewportFraction: 0.92);
+    _pageController = PageController(viewportFraction: 0.92);     
     if (widget.autoSlide && widget.items.length > 1) {
       _startAutoSlide();
     }

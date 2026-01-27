@@ -25,6 +25,14 @@ class AppRouter {
           child: const RegisterPage(),
         ),
       ),
+      GoRoute(
+        path: CheckoutPage.routePath,
+        name: CheckoutPage.routeName,
+        pageBuilder: (context, state) => AppPageTransitions.slideFade(
+          key: state.pageKey,
+          child: const CheckoutPage(),
+        ),
+      ),
 
       // Main App with Bottom Navigation
       StatefulShellRoute.indexedStack(
@@ -67,6 +75,19 @@ class AppRouter {
                     ),
                   ),
                 ],
+              ),
+            ],
+          ),
+          // Cart Branch
+          StatefulShellBranch(
+            routes: [
+              GoRoute(
+                path: CartPage.routePath,
+                name: CartPage.routeName,
+                pageBuilder: (context, state) => AppPageTransitions.fade(
+                  key: state.pageKey,
+                  child: const CartPage(),
+                ),
               ),
             ],
           ),
